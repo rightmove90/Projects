@@ -1,0 +1,13 @@
+{
+  "name": "sales-portal",
+  "version": "1.0.0",
+  "description": "بوابة مبيعات: مشاريع + ملفات من Google Drive + مشاركة عبر واتساب",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "start": "node server.js",
+    "drive-auth": "node scripts/get-refresh-token.js",
+    "test": "node test/run.js"
+  }
+}
